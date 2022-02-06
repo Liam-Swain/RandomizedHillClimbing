@@ -1,0 +1,5 @@
+This program simulates randomized hill climbing to minimize a function of f(x,y) = -(y + 47) * sin(sqrt(|x/2 + (y + 47)|))  - x sin(sqrt(| x - (y + 47)|)).
+You call the function task1 with the starting point for x and y, the value of p represents the number of neighbors, and the value of z reprsents the neighborhood size.
+You can also pass in your own random seed
+
+This algorithm reprsents a way to optimize a problem, by finding local minimums or maximums. 
